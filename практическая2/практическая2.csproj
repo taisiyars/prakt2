@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Butterfly_03.ico" />
+    <None Remove="c8.ani" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LibMas\LibMas.csproj" />
+    <ProjectReference Include="..\Lib_3\Lib_3.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Butterfly_03.ico" />
+    <Resource Include="c8.ani" />
+  </ItemGroup>
+
+</Project>
